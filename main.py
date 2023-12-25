@@ -22,6 +22,3 @@ plt.title("Hourly Energy Consumption")
 plt.xticks(rotation=45)  # Rotate x-axis labels for readability
 plt.grid(True)
 plt.show()
-
-# Optional exploration steps
-# ...

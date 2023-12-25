@@ -25,7 +25,4 @@ ax2.set_title("Weekly Average Energy Consumption")
 monthly_df["DUQ_MW"].plot(ax=ax3, style="b-", label="Monthly Average")
 ax3.set_title("Monthly Average Energy Consumption")
 
-# Customize plots (labels, colors, etc.)
-# ...
-
 plt.show()

@@ -18,6 +18,3 @@ plt.ylabel("Average DUQ_MW")
 plt.title("Daily Average Energy Consumption")
 plt.grid(True)
 plt.show()
-
-# Optional analysis steps
-# ...
