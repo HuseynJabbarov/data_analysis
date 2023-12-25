@@ -11,7 +11,6 @@ for file_path in file_paths:
     df.set_index("Datetime", inplace=True)
     combined_df = pd.concat([combined_df, df])  # Use pd.concat() for concatenation
 
-# Rest of the code remains the same
 
 # Plot time series data
 plt.figure(figsize=(12, 6))

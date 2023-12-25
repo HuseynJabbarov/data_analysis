@@ -11,11 +11,7 @@ weekly_df = combined_df.resample("W").mean()
 monthly_df = combined_df.resample("M").mean()
 
 # Create subplots
-fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
-
-# Plot daily averages
-daily_df["DUQ_MW"].plot(ax=ax1, style="r-", label="Daily Average")
-ax1.set_title("Daily Average Energy Consumption")
+fig, (ax2, ax3) = plt.subplots(2, 1, figsize=(12, 10))
 
 # Plot weekly averages
 weekly_df["DUQ_MW"].plot(ax=ax2, style="g-", label="Weekly Average")

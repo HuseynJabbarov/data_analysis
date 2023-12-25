@@ -17,8 +17,3 @@ plt.xlabel("Datetime")
 plt.ylabel("DUQ_MW")
 plt.legend()
 plt.show()
-
-# Further analysis (optional)
-# ... Compare rolling stats across different time windows
-# ... Analyze periods with high/low deviations
-
