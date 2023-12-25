@@ -11,7 +11,6 @@ data = pd.read_csv('boston.csv')  # replace with your file path
 # Display the first few rows of the dataset
 print(data.head())
 
-
 # Explore data statistics
 print("\nData Statistics:\n", data.describe())
 
