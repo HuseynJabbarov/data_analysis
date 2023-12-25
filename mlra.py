@@ -11,11 +11,12 @@ data = pd.read_csv('boston.csv')  # replace with your file path
 # Display the first few rows of the dataset
 print(data.head())
 
-# Check for missing values
-print("\nMissing values in each column:\n", data.isnull().sum())
 
 # Explore data statistics
 print("\nData Statistics:\n", data.describe())
+
+# Check for missing values
+print("\nMissing values in each column:\n", data.isnull().sum())
 
 # Correlation heatmap
 plt.figure(figsize=(12, 10))
